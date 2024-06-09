@@ -1,0 +1,8 @@
+<!-- src/app/daily-feed/daily-feed.component.html -->
+<div *ngFor="let item of listings | async">
+    <h3>{{ item.name }}</h3>
+    <p>{{ item.description }}</p>
+    <p>Available at: {{ item.availability }}</p>
+    <p>Location: {{ item.location }}</p>
+  </div>
+  

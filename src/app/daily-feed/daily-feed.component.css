@@ -1,0 +1,16 @@
+/* src/app/daily-feed/daily-feed.component.css */
+div {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+  }
+  
+  h3 {
+    margin: 0;
+  }
+  
+  p {
+    margin: 5px 0;
+  }
+  
